@@ -10,11 +10,10 @@ static modloader::ModInfo modInfo{MOD_ID, VERSION, 0};
 // Stores the ID and version of our mod, and is sent to
 // the modloader upon startup
 
-DECLARE_CONFIG(
-    BetterHapticsConfig,
+DECLARE_CONFIG(BetterHapticsConfig) {
     CONFIG_VALUE(globalBypass, bool, "globalBypass", false);
     CONFIG_VALUE(separateArcs, bool, "separateArcs", true);
-);
+};
 
 bool get_global_bypass() {
     return getBetterHapticsConfig().globalBypass.GetValue();

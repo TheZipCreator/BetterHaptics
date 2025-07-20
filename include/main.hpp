@@ -10,7 +10,7 @@
 #include "beatsaber-hook/shared/utils/hooking.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-functions.hpp"
 
-#include "paper/shared/logger.hpp"
+#include "beatsaber-hook/shared/utils/logging.hpp"
 
 #include "config-utils/shared/config-utils.hpp"
 #include "bsml/shared/BSML.hpp"
